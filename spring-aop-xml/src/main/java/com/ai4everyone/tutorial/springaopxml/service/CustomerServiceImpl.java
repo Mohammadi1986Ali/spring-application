@@ -24,7 +24,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Optional<Customer> findCustomerById(Long customerId) {
-        LOGGER.info("CustomerServiceImpl#findCustomerById: " + customerId);
+        LOGGER.info("CustomerServiceImpl#findCustomerById {}", customerId);
         return Optional.empty();
     }
 }
